@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin-top: 120px;
+}
+
+nav {
+  padding: 20px 92px 20px 92px;
+}
+nav ul {
+  margin-left: 30%;
+  gap: 54px;
+}
+nav a {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  color: #152934;
+}
+
+.hero-section {
+  font-family: "Hind Siliguri", sans-serif;
+  padding: 35px 77px 140px 134px;
+}
+.hero-section h1 {
+  width: 513px;
+  height: 267px;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 89px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #152934;
+}
+.hero-section .details {
+  width: 590px;
+  height: 156px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #5D6467;
+  margin-bottom: 48px;
+}
+.hero-section .downloadnow {
+  width: 278px;
+  height: 39px;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #152934;
+}
+.hero-section button {
+  display: inline-flex;
+  width: 250px;
+  height: 64px;
+  padding: 0;
+  background: #20CB68;
+  border: none;
+  outline: none;
+  border-radius: 12px 16px 16px 12px;
+  overflow: hidden;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  box-shadow: 4px 4px 4px #00A746;
+}
+.hero-section button:hover {
+  background: #21c766;
+}
+.hero-section .button-text,
+.hero-section .button-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 20px 24px 20px 24px;
+  color: #FFFFFF;
+  height: 100%;
+}
+.hero-section .button-icon {
+  font-size: 1.5em;
+  background: #00A746;
+}/*# sourceMappingURL=style.css.map */
