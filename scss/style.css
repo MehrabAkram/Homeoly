@@ -201,4 +201,113 @@ nav a {
   letter-spacing: 0.05em;
   color: #5D6467;
   padding-left: 18px;
+}
+
+.benifits {
+  padding: 120px 92px 120px 92px;
+  margin-top: 110px;
+}
+.benifits h2 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 69px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  padding-bottom: 18px;
+  text-align: center;
+}
+.benifits p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.benifits .left .number {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  color: #007D35;
+  background-color: #E6F6ED;
+  width: 76px;
+  height: 80px;
+  padding: 16px 28px 16px 28px;
+  border-radius: 16px;
+  margin-left: auto;
+}
+.benifits .left .number:hover {
+  background-color: #00A746;
+}
+.benifits .left h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  padding-top: 20px;
+  text-align: right;
+}
+.benifits .left p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #5D6467;
+  padding-bottom: 40px;
+  text-align: right;
+  width: 290px;
+  height: 96px;
+  margin-left: auto;
+}
+.benifits img {
+  padding-left: 61px;
+  padding-right: 61px;
+}
+.benifits .right .number {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  color: #007D35;
+  background-color: #E6F6ED;
+  width: 76px;
+  height: 80px;
+  padding: 16px 28px 16px 28px;
+  border-radius: 16px;
+  margin-right: auto;
+}
+.benifits .right .number:hover {
+  background-color: #00A746;
+}
+.benifits .right h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  padding-top: 20px;
+  text-align: left;
+}
+.benifits .right p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #5D6467;
+  padding-bottom: 40px;
+  text-align: left;
+  width: 290px;
+  height: 96px;
+  margin-right: auto;
 }/*# sourceMappingURL=style.css.map */

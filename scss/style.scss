@@ -47,6 +47,41 @@
 
 }
 
+@mixin featuresnumber() {
+    font-family: $fontheader;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    color: #007D35;
+    background-color: #E6F6ED;
+    width: 76px;
+    height: 80px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 16px;
+}
+
+@mixin featuresheader() {
+    font-family: $fontheader;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    padding-top: 20px;        
+}
+@mixin featuresdescription(){
+    font-family: $fontheader;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #5D6467;
+}
+
+
+
+
 $fontheader: "Hind Siliguri", sans-serif;
 
 // Navbar
@@ -60,3 +95,9 @@ $fontheader: "Hind Siliguri", sans-serif;
 
 // Doctor Dashboard
 @import "dashboard";
+
+// Benifits
+@import "benifits";
+
+// Question
+@import "question";
