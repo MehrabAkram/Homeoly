@@ -1,18 +1,23 @@
 
 .doctor-dashboard{
     padding: 120px 92px 120px 92px;
-    background-color: aqua;
+    margin-top: 140px;
+
     h2{
         @include title();
         padding-bottom: 16px;
     }
     p{
         @include description();
+        padding-bottom: 58px;
     }
     .services-section{
-        display: flex;
-
         .service-one{
+            padding-bottom: 28px;
+        }
+
+        .service-two{
+            padding-bottom: 28px;
         }
         padding-right: 40px;
         img{

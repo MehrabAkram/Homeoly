@@ -6,10 +6,6 @@
   padding: 0;
 }
 
-.row {
-  margin-top: 120px;
-}
-
 nav {
   padding: 20px 92px 20px 92px;
 }
@@ -29,6 +25,7 @@ nav a {
 .hero-section {
   font-family: "Hind Siliguri", sans-serif;
   padding: 35px 77px 140px 134px;
+  margin-top: 140px;
 }
 .hero-section h1 {
   width: 513px;
@@ -94,6 +91,9 @@ nav a {
   background: #00A746;
 }
 
+.features {
+  margin-top: 140px;
+}
 .features .features-description {
   font-family: "Hind Siliguri", sans-serif;
   font-size: 42px;
@@ -149,7 +149,7 @@ nav a {
 
 .doctor-dashboard {
   padding: 120px 92px 120px 92px;
-  background-color: aqua;
+  margin-top: 140px;
 }
 .doctor-dashboard h2 {
   font-family: "Hind Siliguri", sans-serif;
@@ -167,10 +167,16 @@ nav a {
   line-height: 27px;
   letter-spacing: 0.05em;
   color: #505954;
+  padding-bottom: 58px;
 }
 .doctor-dashboard .services-section {
-  display: flex;
   padding-right: 40px;
+}
+.doctor-dashboard .services-section .service-one {
+  padding-bottom: 28px;
+}
+.doctor-dashboard .services-section .service-two {
+  padding-bottom: 28px;
 }
 .doctor-dashboard .services-section img {
   padding-top: 17px;
