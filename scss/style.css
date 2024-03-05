@@ -92,7 +92,7 @@ nav a {
 }
 
 .features {
-  margin-top: 140px;
+  padding: 100px 0px 100px 0px;
 }
 .features .features-description {
   font-family: "Hind Siliguri", sans-serif;
@@ -149,7 +149,6 @@ nav a {
 
 .doctor-dashboard {
   padding: 120px 92px 120px 92px;
-  margin-top: 140px;
 }
 .doctor-dashboard h2 {
   font-family: "Hind Siliguri", sans-serif;
@@ -205,7 +204,6 @@ nav a {
 
 .benifits {
   padding: 120px 92px 120px 92px;
-  margin-top: 110px;
 }
 .benifits h2 {
   font-family: "Hind Siliguri", sans-serif;
@@ -310,4 +308,70 @@ nav a {
   width: 290px;
   height: 96px;
   margin-right: auto;
+}
+
+.question {
+  padding: 120px 92px 120px 92px;
+}
+.question h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #152934;
+  padding-bottom: 15px;
+}
+.question p {
+  width: 600px;
+  height: 81px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #505954;
+  margin: auto;
+  padding-bottom: 120px;
+}
+.question .question-answer-section h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #505954;
+  padding-left: 80px;
+  margin: auto;
+}
+.question .question-answer-section .accordion {
+  width: 689.17px;
+  height: 136px;
+}
+.question .question-answer-section .accordion h5 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #505954;
+}
+.question .question-answer-section .accordion .accordion-body {
+  padding: 20px;
+  background: #E6F6ED;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #505954;
+}
+.question .accordion-button::after {
+  content: "";
+  background-image: url(./chevron-down-solid.svg) !important;
 }/*# sourceMappingURL=style.css.map */
