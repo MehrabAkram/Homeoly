@@ -1,0 +1,59 @@
+.features{
+    .features-description{
+        font-family: $fontheader;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 69px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        align-items: center;
+    }
+    .swiper{
+        padding-top: 56px;
+        padding-left: 92.5px;
+        padding-right: 92.5px;
+   
+
+    }
+    .card{
+        width: 302px;
+        height: 231px;
+        padding: 24px 8px 24px 8px;
+        border-radius: 12px;
+        border: none;
+        outline: none;
+    }
+    .feature-icon{
+        display: grid;
+        place-items: center;
+
+    }
+    .card-header{
+        width: 290px;
+        height: 30px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        padding: 18px 25px 0px 25px;
+        border: none;
+        outline: none;
+    }
+    .card-description{
+        padding: 25px 8px 24px 8px;
+        width: 286px;
+        height: 63px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        text-align: center;
+
+    }
+    .card:hover{
+        background-color: #D9F2E3;
+        box-shadow: 27px 19px 9px 0px #00000000;
+    }
+
+}

@@ -10,6 +10,46 @@
     margin-top: 120px;
 }
 
+@mixin title() {
+    font-family: $fontheader;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 69px;
+    letter-spacing: 0.05em;
+    color: #152934;
+}
+
+@mixin description() {
+    font-family: $fontheader;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #505954;
+
+}
+
+@mixin serviceheader() {
+    font-family: $fontheader;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #152934;
+
+}
+
+@mixin servicedescription() {
+    width: 342px;
+    height: 54px;
+    font-family: $fontheader;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #5D6467;
+
+}
 
 $fontheader: "Hind Siliguri", sans-serif;
 
@@ -18,3 +58,9 @@ $fontheader: "Hind Siliguri", sans-serif;
 
 // Hero-Section
 @import "hero";
+
+// Features
+@import "features";
+
+// Doctor Dashboard
+@import "dashboard";

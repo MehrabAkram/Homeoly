@@ -1,0 +1,31 @@
+
+.doctor-dashboard{
+    padding: 120px 92px 120px 92px;
+    background-color: aqua;
+    h2{
+        @include title();
+        padding-bottom: 16px;
+    }
+    p{
+        @include description();
+    }
+    .services-section{
+        display: flex;
+
+        .service-one{
+        }
+        padding-right: 40px;
+        img{
+            padding-top: 17px;
+            padding-bottom: 17px;
+        }
+        h4{
+            @include serviceheader();
+            padding-left: 18px;
+        }
+        p{
+            @include servicedescription();
+            padding-left: 18px;
+        }
+    }
+}
