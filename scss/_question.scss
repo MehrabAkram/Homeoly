@@ -37,8 +37,7 @@
         }
         .accordion{
             width: 689.17px;
-            height: 136px;
-            h5{
+            .accordion-button{
                 font-family: $fontheader;
                 font-size: 18px;
                 font-weight: 400;
@@ -49,7 +48,6 @@
             }
 
             .accordion-body{
-                
                 padding: 20px;
                 background: #E6F6ED;
                 font-family: $fontheader;
@@ -59,14 +57,13 @@
                 letter-spacing: 0.05em;
                 text-align: left;
                 color: #505954;
+                padding-left: 41.25px;
+                padding-right: 41.25px;
             }
-            
+            // .accordion-button::after{
+            //     content: "";
+            //     background-image: url(./images/chevron-down-solid.svg) !important;
+            // }
         }
     }
-
-    .accordion-button::after {
-        content: "";
-        background-image: url(./chevron-down-solid.svg) !important;
-        
-}
 }

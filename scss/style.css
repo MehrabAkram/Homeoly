@@ -349,9 +349,8 @@ nav a {
 }
 .question .question-answer-section .accordion {
   width: 689.17px;
-  height: 136px;
 }
-.question .question-answer-section .accordion h5 {
+.question .question-answer-section .accordion .accordion-button {
   font-family: "Hind Siliguri", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -370,8 +369,6 @@ nav a {
   letter-spacing: 0.05em;
   text-align: left;
   color: #505954;
-}
-.question .accordion-button::after {
-  content: "";
-  background-image: url(./chevron-down-solid.svg) !important;
+  padding-left: 41.25px;
+  padding-right: 41.25px;
 }/*# sourceMappingURL=style.css.map */
