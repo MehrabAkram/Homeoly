@@ -1,5 +1,5 @@
 .app-download{
-    padding: 120px 92px 0px 92px;
+    padding: 52px 80px 0px 80px;
     background-color: #E6F6ED;
 
     .left{
@@ -33,10 +33,48 @@
             text-align: left;
             color: #505954;
             padding-top: 38.67px;
+            padding-bottom: 13.33px;
         }
+        button{
+            border: none;
+            outline: none;
+        }
+        // .google-play-button {
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     background-color: #B0E4C6;
+        //     color: rgb(0, 0, 0);
+        //     border: none;
+        //     border-radius: 5px;
+        //     cursor: pointer;
+        //     transition: all 0.3s ease-in-out;
+        //     width: 177px;
+        //     height: 65.33px;
+        //     text-wrap: wrap;
+        //     padding: 11.67px 20px 11.67px 20px;
+        //     border-radius: 10px;
+        //     font-weight: bold;
+        //   }
+        // .google-play-icon {
+        //     width: 22px;
+        //     height: 24px;
+        //     margin-right: 10px;
+        //   }
+        //   .top{
+        //     font-family: Poppins;
+        //     font-size: 2px;
+        //     font-weight: 500;
+        //     line-height: 18px;
+        //     letter-spacing: 0.05em;
+
+        //   }
+
+    }
+    .right{
         img{
             width: 380px;
-            height: 546.58px;
+            height: 500px;
 
         }
     }

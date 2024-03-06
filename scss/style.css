@@ -312,7 +312,7 @@ nav a {
 }
 
 .question {
-  padding: 120px 92px 120px 92px;
+  padding: 100px 80px 100px 80px;
 }
 .question h4 {
   font-family: "Hind Siliguri", sans-serif;
@@ -417,7 +417,7 @@ nav a {
 }
 
 .app-download {
-  padding: 120px 92px 0px 92px;
+  padding: 52px 80px 0px 80px;
   background-color: #E6F6ED;
 }
 .app-download .left {
@@ -451,8 +451,196 @@ nav a {
   text-align: left;
   color: #505954;
   padding-top: 38.67px;
+  padding-bottom: 13.33px;
 }
-.app-download .left img {
+.app-download .left button {
+  border: none;
+  outline: none;
+}
+.app-download .right img {
   width: 380px;
-  height: 546.58px;
+  height: 500px;
+}
+
+.footer {
+  padding: 100px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+}
+.footer .first-footer {
+  padding-left: 84.17px;
+}
+.footer .first-footer .footer-logo-image img {
+  padding-bottom: 26.67px;
+}
+.footer .first-footer .social-links {
+  display: flex;
+  gap: 15px;
+}
+.footer .first-footer .social-links img {
+  height: 40px;
+  width: 40px;
+}
+.footer .second-footer {
+  padding-left: 35.83px;
+}
+.footer .second-footer h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  width: 123px;
+  height: 30px;
+  padding-bottom: 15px;
+}
+.footer .second-footer h6 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  padding-bottom: 6.67px;
+}
+.footer .second-footer h6 a {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  text-decoration: none;
+}
+.footer .third-footer {
+  padding-left: 23.17px;
+}
+.footer .third-footer h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  width: 123px;
+  height: 30px;
+  padding-bottom: 15px;
+}
+.footer .third-footer h6 a {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  text-decoration: none;
+}
+.footer .fourth-footer {
+  padding-left: 44px;
+}
+.footer .fourth-footer h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  width: 123px;
+  height: 30px;
+  padding-bottom: 15px;
+}
+.footer .fourth-footer h6 a {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  text-decoration: none;
+}
+.footer .fifth-footer {
+  padding-left: 47px;
+}
+.footer .fifth-footer h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  width: 123px;
+  height: 30px;
+  padding-bottom: 15px;
+}
+.footer .fifth-footer h6 a {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  text-decoration: none;
+}
+.footer .sixth-footer {
+  padding-left: 10px;
+}
+.footer .sixth-footer h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  width: 123px;
+  height: 30px;
+  padding-bottom: 15px;
+}
+.footer .sixth-footer h6 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  padding-bottom: 6.67px;
+  padding-bottom: 10px;
+}
+.footer .sixth-footer .update-input {
+  width: 183px;
+}
+.footer .sixth-footer .update-input input {
+  width: 150px;
+  height: 40px;
+  padding: 6.67px;
+  border: 0.83px solid #5D6467;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  border-radius: 6.67px 0px 0px 6.67px;
+  outline: none;
+  float: left;
+  color: #5D6467;
+}
+.footer .sixth-footer .update-input i {
+  background-color: #00A746;
+  color: #E6F6ED;
+  text-align: center;
+  line-height: 40px;
+  width: 33px;
+  border-radius: 0px 6.67px 6.67px 0px;
+}
+.footer .copyright {
+  padding-top: 45px;
+}
+.footer .copyright p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  color: #A3AFB4;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

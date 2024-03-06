@@ -1,0 +1,124 @@
+.footer{
+    padding: 100px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    .first-footer{
+        padding-left: 84.17px;
+        .footer-logo-image{
+            img {
+                padding-bottom: 26.67px;
+            }
+        }
+        
+        .social-links{
+            display: flex;
+            gap: 15px;
+
+            img{
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+
+    .second-footer{
+        padding-left: 35.83px;
+        h4{
+            @include footerheader();
+        }
+        h6{
+            @include footerdata();
+
+            a{
+                @include anchordata();
+            }
+        }
+    }
+
+    .third-footer{
+        padding-left: 23.17px;
+        h4{
+            @include footerheader();
+        }
+        h6{
+            a{
+                @include anchordata();
+            }
+        }
+    }
+
+    .fourth-footer{
+        padding-left: 44px;
+        h4{
+            @include footerheader();
+        }
+        h6{
+            a{
+                @include anchordata();
+            }
+        }
+    }
+
+    .fifth-footer{
+        padding-left: 47px;
+        h4{
+            @include footerheader();
+        }
+        h6{
+            a{
+                @include anchordata();
+            }
+        }
+    }
+
+    .sixth-footer{
+        padding-left: 10px;
+        h4{
+            @include footerheader();
+        }
+        h6{
+            @include footerdata();
+            padding-bottom: 10px;
+        }
+        .update-input{
+            width: 183px;
+            input{
+                width: 150px;
+                height: 40px;
+                padding: 6.67px;
+                border: 0.83px solid #5D6467;
+                font-family: $fontheader;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0.05em;
+                border-radius: 6.67px 0px 0px 6.67px;
+                outline: none;
+                float: left;
+                color: #5D6467;
+            }
+            
+            i{
+                background-color: #00A746;
+                color: #E6F6ED;
+                text-align: center;
+                line-height: 40px;
+                width: 33px;
+                border-radius: 0px 6.67px 6.67px 0px;
+            }
+        }
+    }
+
+    .copyright {
+        padding-top: 45px;
+        p{
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 23px;
+            letter-spacing: 0.05em;
+            color: #A3AFB4;
+            text-align: center;
+        }
+    }
+}
