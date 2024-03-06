@@ -1,0 +1,43 @@
+.app-download{
+    padding: 120px 92px 0px 92px;
+    background-color: #E6F6ED;
+
+    .left{
+        padding-left: 80px;
+
+        h1{
+            font-family: $fontheader;
+            font-size: 46px;
+            font-weight: 600;
+            line-height: 75px;
+            letter-spacing: 0.05em;
+            color: #152934;
+        }
+        p{
+            width: 606.67px;
+            height: 66px;
+            font-family: $fontheader;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.05em;
+            color: #505954;
+            padding-top: 13.33px;
+        }
+        h6{
+            font-family: $fontheader;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0.05em;
+            text-align: left;
+            color: #505954;
+            padding-top: 38.67px;
+        }
+        img{
+            width: 380px;
+            height: 546.58px;
+
+        }
+    }
+}

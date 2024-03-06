@@ -25,7 +25,7 @@
 <body>
 <!-- Navbar Starts -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-info pt-3 pb-3">
+    <nav class="navbar navbar-expand-lg navbar-light pt-3 pb-3 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="">
@@ -40,6 +40,15 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">ব্লগ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  রিসোর্স
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">সার্ভিস</a>
@@ -390,7 +399,7 @@
       </div>
     </div>
 
-    <div class="question-answer-section">
+    <div class="data-related-question">
       <div class="row">
         <div class="col-sm-12 col-md-4 col-lg-4 col-12">
             <h4>ডাটা সম্পর্কিত প্রশ্ন</h4>
@@ -441,25 +450,83 @@
           </div>
           </div>
         </div>
+      </div>
 
-        
+      <div class="prescription-related-question">
+        <div class="row">
+          <div class="ol-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <h4>প্রেজক্রিপশ সম্পর্কিত প্রশ্ন</h4>
+          </div>
+          </div>
 
+          <div class="ol-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-description" aria-expanded="false" aria-controls="flush-collapseOne">
+                    প্রেজক্রিপশ কতদিন পর্যন্ত অ্যাপে সংরক্ষিত থাকবে?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne-description" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    ডাক্তারদের আয় এবং রোগীদের ডাটা এনক্রিপ্ট করা হতে পারে যাতে অনুমতি ছাড়া কেউ অপ্রায় এগুলি অ্যাক্সেস করতে না পারে। <br>
+                    ডেটা সংরক্ষণের জন্য একটি সুরক্ষিত সার্ভার ব্যবহার করা উচিত, যা প্রতিটি সংযোগের জন্য প্রযুক্তিগত সুরক্ষা সরবরাহ করে।
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo-description" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    আমাদের ডাটা কতটুকু নিরাপদ?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo-description" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    ডাক্তারদের আয় এবং রোগীদের ডাটা এনক্রিপ্ট করা হতে পারে যাতে অনুমতি ছাড়া কেউ অপ্রায় এগুলি অ্যাক্সেস করতে না পারে। <br>
+                    ডেটা সংরক্ষণের জন্য একটি সুরক্ষিত সার্ভার ব্যবহার করা উচিত, যা প্রতিটি সংযোগের জন্য প্রযুক্তিগত সুরক্ষা সরবরাহ করে।
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+<!-- App Download section Starts -->
+
+<div class="app-download">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-7 col-lg-7 col-12">
+        <div class="left">
+          <h1>অ্যাপ ডাউনলোড করুন</h1>
+        <p>
+          আমাদের নির্ভরযোগ্য সার্ভিস এবং ডিজিটাল সেবা অপেক্ষা করছে শুধুমাত্র আপনার জন্য!
+        </p>
+        <h6>ইউজার অ্যাপ</h6>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-5 col-lg-5 col-12">
+        <img src="images/app-section-image.png" alt="" class="img-fluid">
       </div>
     </div>
   </div>
-  <br><br><br><br>
-<!-- Question Answer section Ends -->
+</div>
+
+<!-- App Download section Ends -->
 
 
 
 
 
-
-
-
-
-
-
+<br><br><br><br>
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -489,7 +556,7 @@
 
     <!-- IoIcons -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <!-- Bootstrap CDN JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

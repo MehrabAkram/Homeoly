@@ -21,9 +21,10 @@
         text-align: center;
         color: #505954;
         margin: auto;
-        padding-bottom: 120px;
     }
-    .question-answer-section{
+    .data-related-question{
+        padding-top: 36px;
+
         h4{
             font-family: $fontheader;
             font-size: 22px;
@@ -62,7 +63,52 @@
             }
             // .accordion-button::after{
             //     content: "";
-            //     background-image: url(./images/chevron-down-solid.svg) !important;
+            //     background-image: url(./chevron-down-solid.svg) !important;
+            // }
+        }
+    }
+    .prescription-related-question{
+        padding-top: 36px;
+        h4{
+            font-family: $fontheader;
+            width: 300px;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 33px;
+            letter-spacing: 0.05em;
+            text-align: left;
+            color: #505954;
+            padding-left: 80px;
+            margin: auto;
+        }
+        .accordion{
+            width: 689.17px;
+            .accordion-button{
+                font-family: $fontheader;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+                letter-spacing: 0.05em;
+                text-align: left;
+                color: #505954;
+            }
+
+            .accordion-body{
+                padding: 20px;
+                background: #E6F6ED;
+                font-family: $fontheader;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.05em;
+                text-align: left;
+                color: #505954;
+                padding-left: 41.25px;
+                padding-right: 41.25px;
+            }
+            // .accordion-button::after{
+            //     content: "";
+            //     background-image: url(./chevron-down-solid.svg) !important;
             // }
         }
     }
