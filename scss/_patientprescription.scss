@@ -1,5 +1,4 @@
 .patient-prescription{
-    margin-bottom: 50px;
     margin-top: 15px;
     margin-left: 100px;
     margin-right: 90px;
@@ -17,6 +16,101 @@
         }
         P{
             padding-right: 12.42px;
+
+            .right-arrow{
+                color: #00A746;
+            }
         }
+    }
+
+    .prescription-blog{
+        margin-top: 20px;
+
+        .first-card-blog{
+            .date{
+                padding-left: 13.33px;
+                padding-top: 20px;
+                font-family: $fontheader;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0.05em;
+                color: #152934;
+    
+                span{
+                    color: #5D6467;
+                    padding-left: 18.67px;
+                }
+            }
+            h4{
+                @include blogpostheader();
+                padding-left: 13.33px;
+                padding-top: 13.33px;
+            }
+            p{
+                @include blogpostdescription();
+                padding-left: 13.33px;
+                padding-top: 8.33px;
+                width: 300px;
+            }
+        }
+
+        .second-card-blog{
+            .date{
+                padding-left: 13.33px;
+                padding-top: 20px;
+                font-family: $fontheader;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0.05em;
+                color: #152934;
+    
+                span{
+                    color: #5D6467;
+                    padding-left: 18.67px;
+                }
+            }
+            h4{
+                @include blogpostheader();
+                padding-left: 13.33px;
+                padding-top: 13.33px;
+            }
+            p{
+                @include blogpostdescription();
+                padding-left: 13.33px;
+                padding-top: 8.33px;
+                width: 300px;
+            }
+        }
+        .third-card-blog{
+            .date{
+                padding-left: 13.33px;
+                padding-top: 20px;
+                font-family: $fontheader;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0.05em;
+                color: #152934;
+    
+                span{
+                    color: #5D6467;
+                    padding-left: 18.67px;
+                }
+            }
+            h4{
+                @include blogpostheader();
+                padding-left: 13.33px;
+                padding-top: 13.33px;
+            }
+            p{
+                @include blogpostdescription();
+                padding-left: 13.33px;
+                padding-top: 8.33px;
+                width: 300px;
+            }
+        }
+
     }
 }

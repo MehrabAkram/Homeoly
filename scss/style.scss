@@ -119,6 +119,7 @@
     font-weight: 600;
     line-height: 39px;
     letter-spacing: 0.05em;
+    color: #152934;
 }
 
 @mixin blogpostdescription(){
@@ -127,6 +128,7 @@
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.05em;
+    color: #505954;
 }
 
 
@@ -175,4 +177,12 @@ $fontheader: "Hind Siliguri", sans-serif;
 // patient's prescription
 @import "patientprescription";
 
+// Advice for Doctors
+@import "doctoradvice";
+
+// Patient Prescription
+@import "patientprescriptionblog";
+
+// Blog Footer
+@import "footerblog";
 

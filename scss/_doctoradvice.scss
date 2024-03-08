@@ -1,0 +1,53 @@
+.doctoradvice{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 90px;
+
+    .for-doctors{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h5{
+            font-family: $fontheader;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 33px;
+            letter-spacing: 0.05em;
+        }
+        P{
+            padding-right: 12.42px;
+
+            .right-arrow{
+                color: #00A746;
+            }
+        }
+    }
+    .advice-blog{
+        .date{
+            padding-left: 20px;
+            padding-top: 23.33px;
+            font-family: $fontheader;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0.05em;
+            color: #152934;
+
+            span{
+                color: #5D6467;
+                padding-left: 18.67px;
+            }
+        }
+        h4{
+            @include blogpostheader();
+            padding-left: 20px;
+            padding-top: 16.67px;
+        }
+        p{
+            @include blogpostdescription();
+            padding-left: 20px;
+            padding-top: 6.67px;
+            width: 510px;
+        }
+    }
+}

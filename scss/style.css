@@ -727,6 +727,7 @@ nav .nav-link:hover {
 }
 .app-benifit .left .date span {
   color: #5D6467;
+  padding-left: 18.67px;
 }
 .app-benifit .left h4 {
   font-family: "Hind Siliguri", sans-serif;
@@ -734,6 +735,7 @@ nav .nav-link:hover {
   font-weight: 600;
   line-height: 39px;
   letter-spacing: 0.05em;
+  color: #152934;
   padding-left: 20px;
   padding-top: 16.67px;
 }
@@ -743,6 +745,7 @@ nav .nav-link:hover {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.05em;
+  color: #505954;
   padding-left: 20px;
   padding-top: 6.67px;
 }
@@ -761,6 +764,7 @@ nav .nav-link:hover {
   font-weight: 600;
   line-height: 39px;
   letter-spacing: 0.05em;
+  color: #152934;
 }
 .app-benifit .right .first p {
   font-family: "Hind Siliguri", sans-serif;
@@ -768,6 +772,7 @@ nav .nav-link:hover {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.05em;
+  color: #505954;
 }
 .app-benifit .right .first .reading-time {
   font-family: "Hind Siliguri", sans-serif;
@@ -788,6 +793,7 @@ nav .nav-link:hover {
   font-weight: 600;
   line-height: 39px;
   letter-spacing: 0.05em;
+  color: #152934;
 }
 .app-benifit .right .second p {
   font-family: "Hind Siliguri", sans-serif;
@@ -795,6 +801,7 @@ nav .nav-link:hover {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.05em;
+  color: #505954;
 }
 .app-benifit .right .second .reading-time {
   font-family: "Hind Siliguri", sans-serif;
@@ -806,7 +813,6 @@ nav .nav-link:hover {
 }
 
 .patient-prescription {
-  margin-bottom: 50px;
   margin-top: 15px;
   margin-left: 100px;
   margin-right: 90px;
@@ -825,4 +831,392 @@ nav .nav-link:hover {
 }
 .patient-prescription .for-doctors P {
   padding-right: 12.42px;
+}
+.patient-prescription .for-doctors P .right-arrow {
+  color: #00A746;
+}
+.patient-prescription .prescription-blog {
+  margin-top: 20px;
+}
+.patient-prescription .prescription-blog .first-card-blog .date {
+  padding-left: 13.33px;
+  padding-top: 20px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #152934;
+}
+.patient-prescription .prescription-blog .first-card-blog .date span {
+  color: #5D6467;
+  padding-left: 18.67px;
+}
+.patient-prescription .prescription-blog .first-card-blog h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  padding-left: 13.33px;
+  padding-top: 13.33px;
+}
+.patient-prescription .prescription-blog .first-card-blog p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  padding-left: 13.33px;
+  padding-top: 8.33px;
+  width: 300px;
+}
+.patient-prescription .prescription-blog .second-card-blog .date {
+  padding-left: 13.33px;
+  padding-top: 20px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #152934;
+}
+.patient-prescription .prescription-blog .second-card-blog .date span {
+  color: #5D6467;
+  padding-left: 18.67px;
+}
+.patient-prescription .prescription-blog .second-card-blog h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  padding-left: 13.33px;
+  padding-top: 13.33px;
+}
+.patient-prescription .prescription-blog .second-card-blog p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  padding-left: 13.33px;
+  padding-top: 8.33px;
+  width: 300px;
+}
+.patient-prescription .prescription-blog .third-card-blog .date {
+  padding-left: 13.33px;
+  padding-top: 20px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #152934;
+}
+.patient-prescription .prescription-blog .third-card-blog .date span {
+  color: #5D6467;
+  padding-left: 18.67px;
+}
+.patient-prescription .prescription-blog .third-card-blog h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  padding-left: 13.33px;
+  padding-top: 13.33px;
+}
+.patient-prescription .prescription-blog .third-card-blog p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  padding-left: 13.33px;
+  padding-top: 8.33px;
+  width: 300px;
+}
+
+.doctoradvice {
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 90px;
+}
+.doctoradvice .for-doctors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.doctoradvice .for-doctors h5 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+}
+.doctoradvice .for-doctors P {
+  padding-right: 12.42px;
+}
+.doctoradvice .for-doctors P .right-arrow {
+  color: #00A746;
+}
+.doctoradvice .advice-blog .date {
+  padding-left: 20px;
+  padding-top: 23.33px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #152934;
+}
+.doctoradvice .advice-blog .date span {
+  color: #5D6467;
+  padding-left: 18.67px;
+}
+.doctoradvice .advice-blog h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  padding-left: 20px;
+  padding-top: 16.67px;
+}
+.doctoradvice .advice-blog p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  padding-left: 20px;
+  padding-top: 6.67px;
+  width: 510px;
+}
+
+.patient-prescription-blog {
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 90px;
+}
+.patient-prescription-blog .date {
+  padding-left: 13.33px;
+  padding-top: 20px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #152934;
+}
+.patient-prescription-blog .date span {
+  color: #5D6467;
+  padding-left: 18.67px;
+}
+.patient-prescription-blog h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  padding-left: 13.33px;
+  padding-top: 13.33px;
+}
+.patient-prescription-blog p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  padding-left: 13.33px;
+  padding-top: 8.33px;
+  width: 300px;
+}
+.patient-prescription-blog .fourth-prescription,
+.patient-prescription-blog .fifth-prescription,
+.patient-prescription-blog .sixth-prescription {
+  padding-top: 24px;
+}
+
+.full-footer {
+  background-color: #E6F6ED;
+}
+.full-footer .footer-blog {
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 90px;
+  padding: 100px 0px 50px 0px;
+}
+.full-footer .footer-blog .social-links {
+  display: flex;
+  gap: 15px;
+}
+.full-footer .footer-blog .social-links img {
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+}
+.full-footer .footer-blog h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #152934;
+  width: 123px;
+  height: 30px;
+  padding-bottom: 15px;
+  padding-bottom: 17.5px;
+}
+.full-footer .footer-blog .second-footer-sections-blog h6 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  padding-bottom: 6.67px;
+  padding-bottom: 6px;
+}
+.full-footer .footer-blog .second-footer-sections-blog h6 a {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  text-decoration: none;
+}
+.full-footer .footer-blog .third-footer-sections-blog h6 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  padding-bottom: 6.67px;
+  padding-bottom: 6px;
+}
+.full-footer .footer-blog .third-footer-sections-blog h6 a {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  text-decoration: none;
+}
+.full-footer .footer-blog .fourth-footer-sections-blog h6 a {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  text-decoration: none;
+}
+.full-footer .footer-blog .fifth-footer-sections-blog h6 a {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  text-decoration: none;
+}
+.full-footer .footer-blog .sixth-footer-sections-blog h6 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #505954;
+  text-decoration: none;
+}
+.full-footer .footer-blog .sixth-footer-sections-blog .update-input {
+  width: 183px;
+}
+.full-footer .footer-blog .sixth-footer-sections-blog .update-input input {
+  width: 150px;
+  height: 40px;
+  padding: 6.67px;
+  border: 0.83px solid #5D6467;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  border-radius: 6.67px 0px 0px 6.67px;
+  outline: none;
+  float: left;
+  color: #5D6467;
+}
+.full-footer .footer-blog .sixth-footer-sections-blog .update-input i {
+  background-color: #00A746;
+  color: #E6F6ED;
+  text-align: center;
+  line-height: 40px;
+  width: 33px;
+  border-radius: 0px 6.67px 6.67px 0px;
+}
+.full-footer .footer-blog .second-footer-header,
+.full-footer .footer-blog .second-footer-sections-blog {
+  margin-left: 55px;
+}
+.full-footer .footer-blog .third-footer-header .third-footer-sections-blog {
+  margin-left: 88px;
+}
+.full-footer .footer-blog .fourth-footer-header .fourth-footer-sections-blog {
+  margin-left: 58px;
+}
+.full-footer .footer-blog .fifth-footer-header,
+.full-footer .footer-blog .fifth-footer-sections-blog {
+  margin-left: 96px;
+}
+.full-footer .footer-blog .sixth-footer-header,
+.full-footer .footer-blog .sixth-footer-sections-blog {
+  margin-left: 105px;
+}
+.full-footer .download-button-blog {
+  margin-left: 100px;
+  margin-right: 90px;
+}
+.full-footer .download-button-blog h5 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #262626;
+}
+.full-footer .download-button-blog .button-blog {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 16px;
+}
+.full-footer .download-button-blog .copyright {
+  padding-top: 24px;
+  padding-bottom: 50.17px;
+}
+.full-footer .download-button-blog .copyright p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  color: #A3AFB4;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

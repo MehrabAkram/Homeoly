@@ -1,0 +1,37 @@
+.patient-prescription-blog{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 90px;
+
+    .date{
+        padding-left: 13.33px;
+        padding-top: 20px;
+        font-family: $fontheader;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        color: #152934;
+
+        span{
+            color: #5D6467;
+            padding-left: 18.67px;
+        }
+    }
+    h4{
+        @include blogpostheader();
+        padding-left: 13.33px;
+        padding-top: 13.33px;
+    }
+    p{
+        @include blogpostdescription();
+        padding-left: 13.33px;
+        padding-top: 8.33px;
+        width: 300px;
+    }
+    .fourth-prescription,
+    .fifth-prescription,
+    .sixth-prescription {
+        padding-top: 24px;
+    }
+}
