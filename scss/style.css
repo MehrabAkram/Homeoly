@@ -654,12 +654,13 @@ nav .nav-link:hover {
 }
 
 .welcome {
-  height: 270px;
-  background-color: aqua;
+  height: auto;
+  background-color: #E6F6ED;
   border-radius: 12px;
   margin-left: 100px;
   margin-right: 90px;
   margin-top: 94.07px;
+  padding: 50px 20px 50px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -682,4 +683,146 @@ nav .nav-link:hover {
   letter-spacing: 0.05em;
   color: #505954;
   padding-left: 20px;
+}
+
+.postheader {
+  height: auto;
+  margin-left: 100px;
+  margin-right: 90px;
+  margin-top: 16px;
+  padding: 20px 0px 20px 0px;
+  border: none;
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+}
+.postheader .posts a {
+  text-decoration: none;
+  padding-right: 40px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.05em;
+  color: #152934;
+}
+
+.app-benifit {
+  height: 500px;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 90px;
+}
+.app-benifit .left img {
+  border-radius: 6px 6px 0px 0px;
+}
+.app-benifit .left .date {
+  padding-left: 20px;
+  padding-top: 23.33px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #152934;
+}
+.app-benifit .left .date span {
+  color: #5D6467;
+}
+.app-benifit .left h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  padding-left: 20px;
+  padding-top: 16.67px;
+}
+.app-benifit .left p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  padding-left: 20px;
+  padding-top: 6.67px;
+}
+.app-benifit .right {
+  padding-left: 33.33px;
+}
+.app-benifit .right .first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+}
+.app-benifit .right .first h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+}
+.app-benifit .right .first p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+.app-benifit .right .first .reading-time {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #152934;
+}
+.app-benifit .right .second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app-benifit .right .second h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+}
+.app-benifit .right .second p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+.app-benifit .right .second .reading-time {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #152934;
+}
+
+.patient-prescription {
+  margin-bottom: 50px;
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 90px;
+}
+.patient-prescription .for-doctors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.patient-prescription .for-doctors h5 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.05em;
+}
+.patient-prescription .for-doctors P {
+  padding-right: 12.42px;
 }/*# sourceMappingURL=style.css.map */
