@@ -3,34 +3,27 @@
     padding: 35px 77px 140px 134px;
     margin-top: 140px;
     h1{
-        width: 513px;
-        height: 267px;
         font-size: 54px;
         font-weight: 600;
         line-height: 89px;
         letter-spacing: 0.05em;
-        text-align: left;
         color: #152934;
     }
     .details{
-        width: 590px;
-        height: 156px;
         font-size: 26px;
         font-weight: 400;
         line-height: 39px;
         letter-spacing: 0.05em;
-        text-align: left;
         color: #5D6467;
-        margin-bottom: 48px;
+        padding-bottom: 40px;
+        padding-top: 27px;
+
     }
     .downloadnow{
-        width: 278px;
-        height: 39px;
-        font-size: 26px;
+        font-size: 20px;
         font-weight: 500;
         line-height: 39px;
         letter-spacing: 0.05em;
-        text-align: left;
         color: #152934;
     }
     button{
@@ -71,11 +64,11 @@
     // }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+
+@media screen and (max-width: 576px) {
     .hero-section{
+        padding: 40px 16px 40px 16px;
         h1{
-            width: 526.85px;
-            height: 102px;
             font-family: $fontheader;
             font-size: 34px;
             font-weight: 600;
@@ -88,8 +81,6 @@
 
         }
         .details{
-            width: 515px;
-            height: 100px;
             font-family: $fontheader;
             font-size: 20px;
             font-weight: 400;
@@ -100,8 +91,6 @@
             padding-top: 12px;
         }
         .downloadnow{
-            width: 193px;
-            height: 27px;
             font-family: $fontheader;
             font-size: 18px;
             font-weight: 500;
