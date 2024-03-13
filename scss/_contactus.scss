@@ -89,6 +89,20 @@
             letter-spacing: 0.05em;
             border: none;
         }
+        textarea{
+            margin-bottom: 24px;
+            border-radius: 8px;
+            padding: 8px 24px 8px 24px;
+            border: none;
+            outline: none;
+            font-family: $fontheader;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0.05em;
+            color: #000000;
+            width: 464px;
+        }
     }
 }
 

@@ -1,0 +1,124 @@
+.post-section{
+    padding: 40px 80px 24px 80px;
+    h4{
+        font-family: $fontheader;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 79px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #152934;
+        padding-bottom: 24px;
+
+    }
+    .date{
+        font-family: $fontheader;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #152934;
+        padding-bottom: 46px;
+
+    }
+    span{
+        font-family: $fontheader;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        color: #5D6467;
+    }
+    img{
+        padding-bottom: 24px;
+    }
+    p{
+        font-family: $fontheader;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+        color: #152934;
+    }
+    h5{
+        font-family: $fontheader;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 49px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #152934;
+        padding-bottom: 32px;
+    }
+}
+
+.tag-section{
+    padding: 20px 0px 20px 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: none;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+
+    margin-bottom: 100px;
+    .tags{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-family: $fontheader;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0.05em;
+            color: #152934;
+            span{
+                font-family: $fontheader;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 28px;
+                letter-spacing: 0.05em;
+                color: #5D6467;
+            }
+            a {
+                text-decoration: none;
+                img{
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}
+
+.patient-prescription{
+    .related-post{
+        h5{
+            font-family: $fontheader;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 49px;
+            letter-spacing: 0.05em;
+            text-align: center;
+            color: #152934;
+        }
+    }
+    .singleblog{
+        padding-top: 30px;
+    }
+}
+
+.blog-button{
+    padding: 40px 80px 24px 80px;
+    a{
+        text-decoration: none;
+        button{
+            width: 180px;
+            height: 54px;
+            padding: 8px 12px 8px 12px;
+            border-radius: 12px;
+            border: 1px solid #00A746;
+            background: #F9F9F9;
+        }
+    }
+}

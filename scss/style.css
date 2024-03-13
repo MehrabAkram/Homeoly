@@ -657,10 +657,8 @@ nav .nav-link:hover {
   height: auto;
   background-color: #E6F6ED;
   border-radius: 12px;
-  margin-left: 100px;
-  margin-right: 90px;
   margin-top: 94.07px;
-  padding: 50px 20px 50px 20px;
+  padding: 50px 80px 50px 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -684,13 +682,15 @@ nav .nav-link:hover {
   color: #505954;
   padding-left: 20px;
 }
+.welcome .right {
+  width: 228px;
+  height: 170px;
+}
 
 .postheader {
   height: auto;
-  margin-left: 100px;
-  margin-right: 90px;
   margin-top: 16px;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 80px 20px 80px;
   border: none;
   border-top: 1px solid #D9D9D9;
   border-bottom: 1px solid #D9D9D9;
@@ -711,6 +711,9 @@ nav .nav-link:hover {
   margin-top: 25px;
   margin-left: 100px;
   margin-right: 90px;
+}
+.app-benifit .left a {
+  text-decoration: none;
 }
 .app-benifit .left img {
   border-radius: 6px 6px 0px 0px;
@@ -838,6 +841,9 @@ nav .nav-link:hover {
 .patient-prescription .prescription-blog {
   margin-top: 20px;
 }
+.patient-prescription .prescription-blog .first-card-blog a {
+  text-decoration: none;
+}
 .patient-prescription .prescription-blog .first-card-blog .date {
   padding-left: 13.33px;
   padding-top: 20px;
@@ -873,6 +879,9 @@ nav .nav-link:hover {
   padding-top: 8.33px;
   width: 300px;
 }
+.patient-prescription .prescription-blog .second-card-blog a {
+  text-decoration: none;
+}
 .patient-prescription .prescription-blog .second-card-blog .date {
   padding-left: 13.33px;
   padding-top: 20px;
@@ -907,6 +916,9 @@ nav .nav-link:hover {
   padding-left: 13.33px;
   padding-top: 8.33px;
   width: 300px;
+}
+.patient-prescription .prescription-blog .third-card-blog a {
+  text-decoration: none;
 }
 .patient-prescription .prescription-blog .third-card-blog .date {
   padding-left: 13.33px;
@@ -966,6 +978,12 @@ nav .nav-link:hover {
 }
 .doctoradvice .for-doctors P .right-arrow {
   color: #00A746;
+}
+.doctoradvice .advice-blog .left a {
+  text-decoration: none;
+}
+.doctoradvice .advice-blog .right a {
+  text-decoration: none;
 }
 .doctoradvice .advice-blog .date {
   padding-left: 20px;
@@ -1047,6 +1065,14 @@ nav .nav-link:hover {
 .patient-prescription-blog .fifth-prescription,
 .patient-prescription-blog .sixth-prescription {
   padding-top: 24px;
+}
+.patient-prescription-blog .first-prescription a,
+.patient-prescription-blog .second-prescription a,
+.patient-prescription-blog .third-prescription a,
+.patient-prescription-blog .fourth-prescription a,
+.patient-prescription-blog .fifth-prescription a,
+.patient-prescription-blog .sixth-prescription a {
+  text-decoration: none;
 }
 
 .full-footer {
@@ -1251,7 +1277,11 @@ nav .nav-link:hover {
 .mission {
   padding: 120px 30px 100px 30px;
   margin-left: 100px;
-  margin-right: 90px;
+  margin-right: 100px;
+}
+.mission .row {
+  display: flex;
+  align-items: center;
 }
 .mission h4 {
   font-family: "Hind Siliguri", sans-serif;
@@ -1284,6 +1314,10 @@ nav .nav-link:hover {
   padding: 120px 0px 100px 30px;
   margin-left: 100px;
   margin-right: 10px;
+}
+.vision .row {
+  display: flex;
+  align-items: center;
 }
 .vision h4 {
   font-family: "Hind Siliguri", sans-serif;
@@ -1438,6 +1472,20 @@ nav .nav-link:hover {
   letter-spacing: 0.05em;
   border: none;
 }
+.form-section .form textarea {
+  margin-bottom: 24px;
+  border-radius: 8px;
+  padding: 8px 24px 8px 24px;
+  border: none;
+  outline: none;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  width: 464px;
+}
 
 .number-address {
   margin-left: 100px;
@@ -1467,4 +1515,122 @@ nav .nav-link:hover {
   line-height: 26px;
   letter-spacing: 0.05em;
   color: #152934;
+}
+
+.post-section {
+  padding: 40px 80px 24px 80px;
+}
+.post-section h4 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 79px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #152934;
+  padding-bottom: 24px;
+}
+.post-section .date {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #152934;
+  padding-bottom: 46px;
+}
+.post-section span {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #5D6467;
+}
+.post-section img {
+  padding-bottom: 24px;
+}
+.post-section p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #152934;
+}
+.post-section h5 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #152934;
+  padding-bottom: 32px;
+}
+
+.tag-section {
+  padding: 20px 0px 20px 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: none;
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  margin-bottom: 100px;
+}
+.tag-section .tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tag-section .tags p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #152934;
+}
+.tag-section .tags p span {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  color: #5D6467;
+}
+.tag-section .tags p a {
+  text-decoration: none;
+}
+.tag-section .tags p a img {
+  padding-left: 20px;
+}
+
+.patient-prescription .related-post h5 {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #152934;
+}
+.patient-prescription .singleblog {
+  padding-top: 30px;
+}
+
+.blog-button {
+  padding: 40px 80px 24px 80px;
+}
+.blog-button a {
+  text-decoration: none;
+}
+.blog-button a button {
+  width: 180px;
+  height: 54px;
+  padding: 8px 12px 8px 12px;
+  border-radius: 12px;
+  border: 1px solid #00A746;
+  background: #F9F9F9;
 }/*# sourceMappingURL=style.css.map */

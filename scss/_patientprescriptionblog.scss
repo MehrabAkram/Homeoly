@@ -34,4 +34,14 @@
     .sixth-prescription {
         padding-top: 24px;
     }
+    .first-prescription,
+    .second-prescription,
+    .third-prescription,
+    .fourth-prescription,
+    .fifth-prescription,
+    .sixth-prescription {
+        a{
+            text-decoration: none;
+        }
+    }
 }

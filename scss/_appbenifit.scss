@@ -4,6 +4,9 @@
     margin-left: 100px;
     margin-right: 90px;
     .left{
+        a{
+            text-decoration: none;
+        }
         img{
             border-radius: 6px 6px 0px 0px;
         }
@@ -26,6 +29,7 @@
             @include blogpostheader();
             padding-left: 20px;
             padding-top: 16.67px;
+
         }
         p{
             @include blogpostdescription();
