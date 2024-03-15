@@ -19,6 +19,11 @@
     <!-- Font Icon CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <!-- Slick Carousel CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
 <link rel="stylesheet" href="scss/style.css">
 
 </head>
@@ -104,7 +109,7 @@
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 col-12">
         <p class="features-description">
-          আমাদের ডিজিটাল হোমিওপ্যাথি <br>
+          আমাদের ডিজিটাল হোমিওপ্যাথি 
           অ্যাপ মূল বৈশিষ্ট্য
         </p>
       </div>
@@ -114,69 +119,17 @@
 
 
 <!-- Swiper -->
-<div class="swiper mySwiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <div class="card">
-        <div class="feature-icon">
-          <img src="images/first-feature-icon.png" alt="">
-        </div>
-        <p class="card-header">
-          রিয়েল-টাইম চিকিৎসা পর্যবেক্ষণ
-        </p>
-        <p class="card-description">
-          আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
-          বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
-          মুছে দেয়।
-        </p>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="card">
-        <div class="feature-icon">
-          <img src="images/second-feature-icon.png" alt="">
-        </div>
-        <p class="card-header">ব্যাপক স্বাস্থ্য নথি</p>
-        <p class="card-description">
-          আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
-          বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
-          মুছে দেয়।
-        </p>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="card">
-        <div class="feature-icon">
-          <img src="images/third-feature-icon.png" alt="">
-        </div>
-        <p class="card-header">রোগী ও অর্থব্যবস্থা পরিচালনা</p>
-        <p class="card-description">
-          আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
-          বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
-          মুছে দেয়।
-        </p>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="card">
-        <div class="feature-icon">
-          <img src="images/fourth-feature-icon.png" alt="">
-        </div>
-        <p class="card-header">তথ্য নিরাপত্তার ব্যবস্থা</p>
-        <p class="card-description">
-          আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
-          বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
-          মুছে দেয়।
-        </p>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="swiper-slide">
+<div class="feature-slider">
+  <div class="container-fluid">
+    <div class="row featuresliders">
+      <div class="col-sm-12 col-12 col-md-12 col-lg-12">
         <div class="card">
           <div class="feature-icon">
-            <img src="images/fourth-feature-icon.png" alt="">
+            <img src="images/first-feature-icon.png" alt="">
           </div>
-          <p class="card-header">তথ্য নিরাপত্তার ব্যবস্থা</p>
+          <p class="card-headers">
+            রিয়েল-টাইম চিকিৎসা পর্যবেক্ষণ
+          </p>
           <p class="card-description">
             আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
             বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
@@ -184,26 +137,106 @@
           </p>
         </div>
       </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="card">
-        <div class="feature-icon">
-          <img src="images/fourth-feature-icon.png" alt="">
+
+      <div class="col-sm-12 col-12 col-md-12 col-lg-12">
+        <div class="card">
+          <div class="feature-icon">
+            <img src="images/second-feature-icon.png" alt="">
+          </div>
+          <p class="card-headers">
+            ব্যাপক স্বাস্থ্য নথি
+          </p>
+          <p class="card-description">
+            আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
+            বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
+            মুছে দেয়।
+          </p>
         </div>
-        <p class="card-header">তথ্য নিরাপত্তার ব্যবস্থা</p>
-        <p class="card-description">
-          আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
-          বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
-          মুছে দেয়।
-        </p>
       </div>
+
+      <div class="col-sm-12 col-12 col-md-12 col-lg-12">
+        <div class="card">
+          <div class="feature-icon">
+            <img src="images/third-feature-icon.png" alt="">
+          </div>
+          <p class="card-headers">
+            রোগী ও অর্থব্যবস্থা পরিচালনা
+          </p>
+          <p class="card-description">
+            আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
+            বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
+            মুছে দেয়।
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-12 col-md-12 col-lg-12">
+        <div class="card">
+          <div class="feature-icon">
+            <img src="images/fourth-feature-icon.png" alt="">
+          </div>
+          <p class="card-headers">
+            তথ্য নিরাপত্তার ব্যবস্থা
+          </p>
+          <p class="card-description">
+            আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
+            বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
+            মুছে দেয়।
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-12 col-md-12 col-lg-12">
+        <div class="card">
+          <div class="feature-icon">
+            <img src="images/fourth-feature-icon.png" alt="">
+          </div>
+          <p class="card-headers">
+            তথ্য নিরাপত্তার ব্যবস্থা
+          </p>
+          <p class="card-description">
+            আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
+            বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
+            মুছে দেয়।
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-12 col-md-12 col-lg-12">
+        <div class="card">
+          <div class="feature-icon">
+            <img src="images/fourth-feature-icon.png" alt="">
+          </div>
+          <p class="card-headers">
+            তথ্য নিরাপত্তার ব্যবস্থা
+          </p>
+          <p class="card-description">
+            আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
+            বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
+            মুছে দেয়।
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-12 col-md-12 col-lg-12">
+        <div class="card">
+          <div class="feature-icon">
+            <img src="images/fourth-feature-icon.png" alt="">
+          </div>
+          <p class="card-headers">
+            তথ্য নিরাপত্তার ব্যবস্থা
+          </p>
+          <p class="card-description">
+            আমাদের অ্যাপটি হোমিওপ্যাথির অনন্য চাহিদা 
+            বুঝতে পারে, যা একটি বিরামবিহীন অভিজ্ঞতাকে 
+            মুছে দেয়।
+          </p>
+        </div>
+      </div>
+     
+
     </div>
-    <div class="swiper-slide">Slide 7</div>
-    <div class="swiper-slide">Slide 8</div>
-    <div class="swiper-slide">Slide 9</div>
   </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
 </div>
 
 
@@ -236,26 +269,49 @@
           <div class="services-section">
 
             <div class="service-one">
-              <div class="row">
-                  <div class="col-sm-1 col-lg-1 col-md-1">
-                      <img src="images/first-dashboard-icon.png" alt="">
-                  </div>
-  
-                  <div class="col-sm-4 col-lg-4 col-md-4"> 
-                      <div class="service-text">
-                          <h4>এক দেখাই রোগ নির্ণয়</h4>
-                          <p>
-                            আমাদের হোমিওপ্যাথি রোগী ব্যবস্থাপনা
-                            অ্যাপের ড্যাশবোর্ড হল আপনার কেন্দ্রীয় কেন্দ্র।
-                          </p>
-  
-                      </div>
-                  </div>
+              <div class="service-img">
+                <img src="images/first-dashboard-icon.png" alt="">
               </div>
+
+              <div class="service-text">
+                <h4>এক দেখাই রোগ নির্ণয়</h4>
+                <p>
+                  আমাদের হোমিওপ্যাথি রোগী ব্যবস্থাপনা
+                  অ্যাপের ড্যাশবোর্ড হল আপনার কেন্দ্রীয় কেন্দ্র।
+                </p>
+              </div>
+              <!-- <div class="row">
+                <div class="col-sm-1 col-lg-2 col-md-2">
+                    <img src="images/first-dashboard-icon.png" alt="">
+                </div>
+
+                <div class="col-sm-4 col-lg-4 col-md-4"> 
+                    <div class="service-text">
+                        <h4>এক দেখাই রোগ নির্ণয়</h4>
+                        <p>
+                          আমাদের হোমিওপ্যাথি রোগী ব্যবস্থাপনা
+                          অ্যাপের ড্যাশবোর্ড হল আপনার কেন্দ্রীয় কেন্দ্র।
+                        </p>
+
+                    </div>
+                </div>
+            </div> -->
           </div>
 
           <div class="service-two">
-            <div class="row">
+
+            <div class="service-img">
+              <img src="images/second-dashboard-icon.png" alt="">
+            </div>
+
+            <div class="service-text">
+              <h4>সাথে সাথে আপডেট</h4>
+              <p>
+                আমাদের হোমিওপ্যাথি রোগী ব্যবস্থাপনা 
+                অ্যাপের ড্যাশবোর্ড হল আপনার কেন্দ্রীয় কেন্দ্র।
+              </p>
+            </div>
+            <!-- <div class="row">
                 <div class="col-sm-1 col-lg-1 col-md-1">
                     <img src="images/second-dashboard-icon.png" alt="">
                 </div>
@@ -270,12 +326,23 @@
 
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
         <div class="service-three">
-            <div class="row">
+          <div class="service-img">
+            <img src="images/third-dashboard-icon.png" alt="">
+          </div>
+
+          <div class="service-text">
+            <h4>সাথে সাথে আপডেট</h4>
+            <p>
+              আমাদের হোমিওপ্যাথি রোগী ব্যবস্থাপনা 
+              অ্যাপের ড্যাশবোর্ড হল আপনার কেন্দ্রীয় কেন্দ্র।
+            </p>
+          </div>
+            <!-- <div class="row">
                 <div class="col-sm-1 col-lg-1 col-md-1">
                     <img src="images/third-dashboard-icon.png" alt="">
                 </div>
@@ -290,7 +357,7 @@
 
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
 
 
@@ -311,11 +378,11 @@
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 col-12">
         <h2>
-          একজন ডাক্তার হিসেবে আপনাকে হোমিওলি <br>
+          একজন ডাক্তার হিসেবে আপনাকে হোমিওলি 
           যে সুবিধাগুলো দিবে
         </h2>
         <p>
-          ডিজিটাল প্ল্যাটফর্মগুলির সংহতকরণ অনুশীলনকারীদের সময়োপযোগী পরামর্শ দিতে, অগ্রগতি <br>
+          ডিজিটাল প্ল্যাটফর্মগুলির সংহতকরণ অনুশীলনকারীদের সময়োপযোগী পরামর্শ দিতে, অগ্রগতি
           পর্যবেক্ষণ করতে এবং প্রয়োজন অনুযায়ী চিকিত্সার পরিকল্পনাগুলি সামঞ্জস্য করতে দেয়।
         </p>
       </div>
@@ -378,8 +445,34 @@
 </div>
 
 
+<!-- benifit section Ends -->
 
+<!-- Guideline section Starts -->
+<div class="guidelines">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-12 col-lg-6 col-md-6">
+        <div class="left">
+          <h4>হোমিওলী: সহজে ব্যবহারের নির্দেশিকা</h4>
+        <p>
+          মুল মেনু থেকে ব্যবহারকারীরা সহজেই চিকিৎসা পরামর্শ, পরীক্ষা সমূহ, ঔষধ পরামর্শ, এবং সেবা সম্পর্কিত অন্যান্য সেবা পেতে পারেন।
+        </p>
+        <a href="#">
+          <button>
+            <img src="images/guidelinebutton.svg" alt="" class="img-fluid">
+          </button>
+        </a>
+        </div>
 
+      </div>
+
+      <div class="col-sm-12 col-12 col-lg-6 col-md-6">
+        <img src="images/guidelineimage.svg" alt="" class="img-fluid float-end">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Guideline section Ends -->
 
 <!-- Question Answer section Starts -->
 
@@ -451,13 +544,11 @@
 
       <div class="prescription-related-question">
         <div class="row">
-          <div class="ol-sm-12 col-md-4 col-lg-4 col-12">
             <div class="col-sm-12 col-md-4 col-lg-4 col-12">
               <h4>প্রেজক্রিপশ সম্পর্কিত প্রশ্ন</h4>
           </div>
-          </div>
 
-          <div class="ol-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="ol-sm-12 col-md-8 col-lg-8 col-12">
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
@@ -503,16 +594,17 @@
     <div class="row">
       <div class="col-sm-12 col-md-7 col-lg-7 col-12">
         <div class="left">
-          <h1>অ্যাপ ডাউনলোড করুন</h1>
+          <h2>অ্যাপ ডাউনলোড করুন</h2>
         <p>
           আমাদের নির্ভরযোগ্য সার্ভিস এবং ডিজিটাল সেবা অপেক্ষা করছে শুধুমাত্র আপনার জন্য!
         </p>
         <h6>ইউজার অ্যাপ</h6>
         <a href="#">
-          <button class="google-play-button">
+          <button>
             <!-- <img src="images/play-store-img.png" alt="Google Play" class="google-play-icon">
             Get it from Google Play -->
             <img src="images/app-download-button.svg" alt="" class="img-fluid">
+            <img src="images/appdownloadaiphone.svg" alt="" class="img-fluid">
           </button>
         </a>
         </div>
@@ -640,32 +732,7 @@
 
 
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      breakpoints: {
-        320: {
-          slidesPerView: 1,
-        },
-        640: {
-          slidesPerView: 2,
-        },
-        768: {
-          slidesPerView: 3,
-        },
-        1024: {
-          slidesPerView: 4,
-        },
-      },
-    });
-  </script>
+ 
 
     <!-- IoIcons -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -674,6 +741,50 @@
     <!-- Bootstrap CDN JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    <!-- Jquery for slick slider -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      $('.featuresliders').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script>
+
+
 
   </body>
 </html>

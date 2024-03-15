@@ -4,6 +4,8 @@
 
     h2{
         @include title();
+        font-size: 42px;
+
         padding-bottom: 16px;
     }
     p{
@@ -12,13 +14,19 @@
     }
     .services-section{
         .service-one{
+            display: flex;
+
             padding-bottom: 28px;
         }
 
         .service-two{
+            display: flex;
             padding-bottom: 28px;
         }
-        padding-right: 40px;
+        .service-three{
+            display: flex;
+            padding-bottom: 28px;
+        }
         img{
             padding-top: 17px;
             padding-bottom: 17px;
@@ -32,4 +40,61 @@
             padding-left: 18px;
         }
     }
+}
+
+
+@media screen and (max-width: 576px) {
+    
+.doctor-dashboard{
+    padding: 0px 16px 0px 16px;
+
+    h2{
+        @include title();
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 13px;
+    }
+    p{
+        @include description();
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 58px;
+    }
+    .services-section{
+        .service-one{
+            display: flex;
+
+            padding-bottom: 28px;
+        }
+
+        .service-two{
+            display: flex;
+            padding-bottom: 28px;
+        }
+        .service-three{
+            display: flex;
+            padding-bottom: 28px;
+        }
+        img{
+            padding-top: 17px;
+            padding-bottom: 17px;
+        }
+        h4{
+            @include serviceheader();
+            font-size: 18px;
+            line-height: 29.52px;
+            padding-left: 18px;
+        }
+        p{
+            @include servicedescription();
+            padding-left: 18px;
+            line-height: 21px;
+            font-size: 14px;
+            text-align: left;
+            padding-right: 16px;
+        }
+    }
+}
 }

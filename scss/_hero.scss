@@ -76,8 +76,6 @@
             letter-spacing: 0.05em;
             text-align: center;
             color: #262626;
-            padding-right: 24.58px;
-            padding-left: 24.58px;
 
         }
         .details{
@@ -98,12 +96,15 @@
             letter-spacing: 0.05em;
             color: #262626;
             text-align: center;
-            margin: auto;
+            padding-top: 0px;
         }
         button{
             display: flex;
             margin: auto;
             padding-top: 12px;
+            padding-bottom: 40px;
+            padding-left: 45px;
+            padding-right: 45px;
         }
     }
     

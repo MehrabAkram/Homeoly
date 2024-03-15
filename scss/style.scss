@@ -7,7 +7,6 @@
 }
 @mixin title() {
     font-family: $fontheader;
-    font-size: 42px;
     font-weight: 600;
     line-height: 69px;
     letter-spacing: 0.05em;
@@ -152,6 +151,9 @@ $fontheader: "Hind Siliguri", sans-serif;
 
 // Benifits
 @import "benifits";
+
+// Guideline
+@import "guideline";
 
 // Question
 @import "question";

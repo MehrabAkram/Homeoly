@@ -5,7 +5,7 @@
     .left{
         padding-left: 80px;
 
-        h1{
+        h2{
             font-family: $fontheader;
             font-size: 46px;
             font-weight: 600;
@@ -14,8 +14,6 @@
             color: #152934;
         }
         p{
-            width: 606.67px;
-            height: 66px;
             font-family: $fontheader;
             font-size: 22px;
             font-weight: 400;
@@ -38,6 +36,10 @@
         button{
             border: none;
             outline: none;
+            img{
+                padding-right: 20px;
+
+            }
         }
         // .google-play-button {
         //     display: flex;
@@ -73,9 +75,95 @@
     }
     .right{
         img{
-            width: 380px;
-            height: 500px;
-
         }
     }
 }
+
+
+@media screen and (max-width: 576px) {
+    
+    .app-download{
+        padding: 60px 16px 60px 16px;
+        background-color: #E6F6ED;
+    
+        .left{
+            padding-left: 0px;
+    
+            h2{
+                font-family: $fontheader;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 45px;
+                letter-spacing: 0.05em;
+                color: #152934;
+                text-align: center;
+            }
+            p{
+                font-family: $fontheader;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0.05em;
+                color: #505954;
+                padding-top: 16px;
+                text-align: center;
+            }
+            h6{
+                font-family: $fontheader;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 27px;
+                letter-spacing: 0.05em;
+                text-align: center;
+                color: #505954;
+                padding-top: 32px;
+                padding-bottom: 16px;
+            }
+            button{
+                border: none;
+                outline: none;
+                display: flex;
+                margin: auto;
+                padding-bottom: 50px;
+                img{
+                    width: 148px;
+                    height: 53px;
+                    padding-right: 16px;
+                }
+
+            }
+
+            // .google-play-button {
+            //     display: flex;
+            //     align-items: center;
+            //     justify-content: center;
+            //     background-color: #B0E4C6;
+            //     color: rgb(0, 0, 0);
+            //     border: none;
+            //     border-radius: 5px;
+            //     cursor: pointer;
+            //     transition: all 0.3s ease-in-out;
+            //     width: 177px;
+            //     height: 65.33px;
+            //     text-wrap: wrap;
+            //     padding: 11.67px 20px 11.67px 20px;
+            //     border-radius: 10px;
+            //     font-weight: bold;
+            //   }
+            // .google-play-icon {
+            //     width: 22px;
+            //     height: 24px;
+            //     margin-right: 10px;
+            //   }
+            //   .top{
+            //     font-family: Poppins;
+            //     font-size: 2px;
+            //     font-weight: 500;
+            //     line-height: 18px;
+            //     letter-spacing: 0.05em;
+    
+            //   }
+    
+        }
+    }
+    }

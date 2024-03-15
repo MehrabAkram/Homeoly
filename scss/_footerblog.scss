@@ -6,6 +6,9 @@
         margin-left: 100px;
         margin-right: 90px;
         padding: 100px 0px 50px 0px;
+        .footer-logo-blog{
+            padding-bottom: 20px;
+        }
         .social-links{
             display: flex;
             gap: 15px;
@@ -13,7 +16,6 @@
             img{
                 height: 40px;
                 width: 40px;
-                margin-top: 20px;
             }
         }
         h4{
