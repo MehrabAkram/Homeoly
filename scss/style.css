@@ -26,6 +26,27 @@ nav .nav-link:hover {
   color: #008638 !important;
 }
 
+@media screen and (max-width: 576px) {
+  nav {
+    background: #F0F0F0;
+    padding: 30px 16px 30px 16px;
+  }
+  nav ul {
+    margin-left: 7%;
+    gap: 54px;
+  }
+  nav a {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #152934;
+  }
+  nav .nav-link:hover {
+    color: #008638 !important;
+  }
+}
 .hero-section {
   font-family: "Hind Siliguri", sans-serif;
   padding: 35px 77px 140px 134px;
@@ -1265,7 +1286,6 @@ nav .nav-link:hover {
   }
 }
 .welcome {
-  height: auto;
   background-color: #E6F6ED;
   border-radius: 12px;
   margin-top: 94.07px;
@@ -1284,7 +1304,6 @@ nav .nav-link:hover {
   padding-left: 20px;
 }
 .welcome .left p {
-  width: 590px;
   font-family: "Hind Siliguri", sans-serif;
   font-size: 22px;
   font-weight: 400;
@@ -1298,6 +1317,41 @@ nav .nav-link:hover {
   height: 170px;
 }
 
+@media screen and (max-width: 576px) {
+  .welcome {
+    background-color: #E6F6ED;
+    margin-top: 94.07px;
+    padding: 30px 16px 30px 16px;
+  }
+  .welcome .left h4 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    padding-top: 8px;
+    text-align: center;
+  }
+  .welcome .left p {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    text-align: center;
+  }
+  .welcome img {
+    display: flex;
+    margin: auto;
+    padding-top: 18px;
+  }
+  .welcome .right {
+    width: auto;
+    height: auto;
+  }
+}
 .postheader {
   height: auto;
   margin-top: 16px;
@@ -1318,10 +1372,7 @@ nav .nav-link:hover {
 }
 
 .app-benifit {
-  height: 500px;
-  margin-top: 25px;
-  margin-left: 100px;
-  margin-right: 90px;
+  padding: 25px 80px 25px 80px;
 }
 .app-benifit .left a {
   text-decoration: none;
@@ -1633,9 +1684,7 @@ nav .nav-link:hover {
 }
 
 .patient-prescription-blog {
-  margin-top: 15px;
-  margin-left: 100px;
-  margin-right: 90px;
+  padding: 40px 25px 24px 25px;
 }
 .patient-prescription-blog .date {
   padding-left: 13.33px;
@@ -1865,9 +1914,7 @@ nav .nav-link:hover {
 }
 .full-about-us-hero .about-us-hero {
   margin-top: 82px;
-  margin-left: 100px;
-  margin-right: 90px;
-  padding: 50px 20px 50px 20px;
+  padding: 100px 92px 100px 92px;
 }
 .full-about-us-hero .about-us-hero p {
   font-family: "Hind Siliguri", sans-serif;
@@ -1888,9 +1935,7 @@ nav .nav-link:hover {
 }
 
 .mission {
-  padding: 120px 30px 100px 30px;
-  margin-left: 100px;
-  margin-right: 100px;
+  padding: 100px 92px 100px 92px;
 }
 .mission .row {
   display: flex;
@@ -1924,9 +1969,7 @@ nav .nav-link:hover {
 }
 
 .vision {
-  padding: 120px 0px 100px 30px;
-  margin-left: 100px;
-  margin-right: 10px;
+  padding: 100px 92px 100px 92px;
 }
 .vision .row {
   display: flex;
@@ -1939,7 +1982,7 @@ nav .nav-link:hover {
   line-height: 62px;
   letter-spacing: 0.05em;
   color: #152934;
-  margin-bottom: 4px;
+  padding-bottom: 4px;
 }
 .vision .short-description {
   font-family: "Hind Siliguri", sans-serif;
@@ -1948,7 +1991,7 @@ nav .nav-link:hover {
   line-height: 36px;
   letter-spacing: 0.05em;
   color: #152934;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 .vision .long-description {
   font-family: "Hind Siliguri", sans-serif;
@@ -1960,9 +2003,7 @@ nav .nav-link:hover {
 }
 
 .ceo-section {
-  padding: 120px 30px 100px 30px;
-  margin-left: 100px;
-  margin-right: 90px;
+  padding: 100px 92px 100px 92px;
 }
 .ceo-section p {
   font-family: "Hind Siliguri", sans-serif;
@@ -1972,7 +2013,7 @@ nav .nav-link:hover {
   letter-spacing: 0.05em;
   text-align: center;
   color: #152934;
-  margin-top: 32px;
+  padding-top: 32px;
 }
 .ceo-section h4 {
   font-family: "Hind Siliguri", sans-serif;
@@ -1981,7 +2022,7 @@ nav .nav-link:hover {
   line-height: 39px;
   letter-spacing: 0.05em;
   text-align: center;
-  margin-top: 21px;
+  padding-top: 21px;
   color: #152934;
 }
 .ceo-section .designation {
@@ -1992,17 +2033,160 @@ nav .nav-link:hover {
   letter-spacing: 0.05em;
   text-align: center;
   color: #5D6467;
-  margin-top: 4px;
+  padding-top: 4px;
 }
 
+@media screen and (max-width: 576px) {
+  .full-about-us-hero {
+    background: #E6F6ED;
+  }
+  .full-about-us-hero .about-us-hero {
+    padding: 30px 16px 30px 16px;
+  }
+  .full-about-us-hero .about-us-hero p {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    text-align: center;
+  }
+  .full-about-us-hero .about-us-hero h4 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    padding-top: 8px;
+    text-align: center;
+  }
+  .full-about-us-hero .about-us-hero img {
+    display: flex;
+    margin: auto;
+    padding-top: 18px;
+  }
+  .mission {
+    padding: 40px 16px 40px 16px;
+  }
+  .mission .row {
+    display: flex;
+    align-items: center;
+  }
+  .mission h4 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .mission .short-description {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .mission .long-description {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    text-align: center;
+  }
+  .mission img {
+    width: 420px;
+    height: 280px;
+  }
+  .vision {
+    padding: 40px 16px 40px 16px;
+  }
+  .vision .row {
+    display: flex;
+    align-items: center;
+  }
+  .vision h4 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .vision .short-description {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .vision .long-description {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    text-align: center;
+  }
+  .ceo-section {
+    padding: 40px 16px 40px 16px;
+  }
+  .ceo-section img {
+    width: 320px;
+    height: 240px;
+  }
+  .ceo-section p {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #152934;
+    padding-top: 16px;
+  }
+  .ceo-section h4 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding-top: 24px;
+    color: #152934;
+  }
+  .ceo-section .designation {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #5D6467;
+    padding-top: 4px;
+  }
+}
 .contact-about-us-hero {
   background: #E6F6ED;
 }
 .contact-about-us-hero .contact-us-hero {
   margin-top: 82px;
-  margin-left: 100px;
-  margin-right: 90px;
-  padding: 50px 20px 50px 20px;
+  padding: 100px 92px 100px 92px;
 }
 .contact-about-us-hero .contact-us-hero p {
   font-family: "Hind Siliguri", sans-serif;
@@ -2023,10 +2207,7 @@ nav .nav-link:hover {
 }
 
 .form-section {
-  margin-top: 15px;
-  margin-left: 100px;
-  margin-right: 90px;
-  padding: 100px 0px 100px 0px;
+  padding: 100px 92px 100px 92px;
 }
 .form-section h4 {
   font-family: "Hind Siliguri", sans-serif;
@@ -2046,8 +2227,7 @@ nav .nav-link:hover {
   margin-top: 24px;
 }
 .form-section .form {
-  height: 504px;
-  width: 504px;
+  float: inline-end;
   background: #D9F2E3;
   border-radius: 16px;
   padding: 30px 20px 30px 20px;
@@ -2101,9 +2281,7 @@ nav .nav-link:hover {
 }
 
 .number-address {
-  margin-left: 100px;
-  margin-right: 90px;
-  padding: 100px 0px 100px 0px;
+  padding: 100px 92px 100px 92px;
 }
 .number-address .email {
   display: flex;
@@ -2130,8 +2308,143 @@ nav .nav-link:hover {
   color: #152934;
 }
 
+@media screen and (max-width: 576px) {
+  .contact-about-us-hero {
+    background: #E6F6ED;
+  }
+  .contact-about-us-hero .contact-us-hero {
+    padding: 30px 16px 30px 16px;
+  }
+  .contact-about-us-hero .contact-us-hero p {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.2px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    text-align: center;
+  }
+  .contact-about-us-hero .contact-us-hero h4 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    padding-top: 8px;
+    text-align: center;
+  }
+  .contact-about-us-hero .contact-us-hero img {
+    display: flex;
+    margin: auto;
+  }
+  .form-section {
+    padding: 40px 16px 40px 16px;
+  }
+  .form-section h4 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    text-align: center;
+  }
+  .form-section p {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #152934;
+    margin-top: 4px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .form-section .form {
+    float: none;
+    background: #D9F2E3;
+    border-radius: 16px;
+    padding: 30px 20px 30px 20px;
+  }
+  .form-section .form input {
+    margin-bottom: 16px;
+    border-radius: 8px;
+    padding: 8px 24px 8px 24px;
+    border: none;
+    outline: none;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    width: 391px;
+    height: 50px;
+  }
+  .form-section .form .barta {
+    height: 120px;
+    position: relative;
+  }
+  .form-section .form button {
+    background-color: #00A746;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 8px 0px 8px 0px;
+    width: 180px;
+    height: 55px;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    border: none;
+  }
+  .form-section .form textarea {
+    margin-bottom: 24px;
+    border-radius: 8px;
+    padding: 8px 24px 8px 24px;
+    border: none;
+    outline: none;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    width: 464px;
+  }
+  .number-address {
+    padding: 32px 36px 40px 36px;
+  }
+  .number-address .email {
+    display: flex;
+    gap: 18.33px;
+    background: #D9F2E3;
+    border-radius: 14px;
+    padding: 20px 34px 20px 34px;
+    margin-bottom: 16px;
+  }
+  .number-address .email .top {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #5D6467;
+    margin-bottom: 0px;
+  }
+  .number-address .email .down {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #152934;
+  }
+}
 .post-section {
-  padding: 40px 80px 24px 80px;
+  padding: 40px 92px 24px 92px;
 }
 .post-section h4 {
   font-family: "Hind Siliguri", sans-serif;
@@ -2188,8 +2501,8 @@ nav .nav-link:hover {
   margin-left: 100px;
   margin-right: 100px;
   border: none;
-  border-top: 1px solid #D9D9D9;
-  border-bottom: 1px solid #D9D9D9;
+  border-top: 2px solid #D9D9D9;
+  border-bottom: 2px solid #D9D9D9;
   margin-bottom: 100px;
 }
 .tag-section .tags {
@@ -2220,6 +2533,9 @@ nav .nav-link:hover {
   padding-left: 20px;
 }
 
+.patient-prescription {
+  padding: 40px 92px 24px 92px;
+}
 .patient-prescription .related-post h5 {
   font-family: "Hind Siliguri", sans-serif;
   font-size: 30px;
@@ -2246,4 +2562,125 @@ nav .nav-link:hover {
   border-radius: 12px;
   border: 1px solid #00A746;
   background: #F9F9F9;
+}
+
+@media screen and (max-width: 576px) {
+  .post-section {
+    padding: 40px 16px 40px 16px;
+  }
+  .post-section h4 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #152934;
+    padding-bottom: 14px;
+  }
+  .post-section .date {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #152934;
+    padding-bottom: 26px;
+  }
+  .post-section span {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #5D6467;
+  }
+  .post-section img {
+    padding-bottom: 30px;
+  }
+  .post-section p {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #152934;
+  }
+  .post-section h5 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #152934;
+    padding-bottom: 16px;
+  }
+  .tag-section {
+    padding: 20px 0px 20px 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: none;
+    border-top: 2px solid #D9D9D9;
+    border-bottom: 2px solid #D9D9D9;
+    margin-bottom: 100px;
+  }
+  .tag-section .tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tag-section .tags p {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #152934;
+  }
+  .tag-section .tags p span {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #5D6467;
+  }
+  .tag-section .tags p a {
+    text-decoration: none;
+  }
+  .tag-section .tags p a img {
+    padding-left: 8px;
+  }
+  .patient-prescription {
+    padding: 40px 0px 40px 0px;
+  }
+  .patient-prescription .related-post h5 {
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #152934;
+  }
+  .patient-prescription .singleblog {
+    padding-top: 16px;
+  }
+  .blog-button {
+    padding: 40px 16px 40px 16px;
+  }
+  .blog-button a {
+    text-decoration: none;
+  }
+  .blog-button a button {
+    width: 170px;
+    height: 54px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 12px;
+    border: 1px solid #00A746;
+    background: #F9F9F9;
+    margin-left: 20%;
+  }
 }/*# sourceMappingURL=style.css.map */

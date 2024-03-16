@@ -2,9 +2,7 @@
     background: #E6F6ED;
     .contact-us-hero{
         margin-top: 82px;
-        margin-left: 100px;
-        margin-right: 90px;
-        padding: 50px 20px 50px 20px;
+        padding: 100px 92px 100px 92px;
 
 
         p{
@@ -29,10 +27,7 @@
 }
 
 .form-section{
-    margin-top: 15px;
-    margin-left: 100px;
-    margin-right: 90px;
-    padding: 100px 0px 100px 0px;
+    padding: 100px 92px 100px 92px;
     h4{
         font-family: $fontheader;
         font-size: 32px;
@@ -51,8 +46,7 @@
         margin-top: 24px;
     }
     .form{
-        height: 504px;
-        width: 504px;
+        float: inline-end;
         background: #D9F2E3;
         border-radius: 16px;
         padding: 30px 20px 30px 20px;
@@ -107,9 +101,7 @@
 }
 
 .number-address{
-    margin-left: 100px;
-    margin-right: 90px;
-    padding: 100px 0px 100px 0px;
+    padding: 100px 92px 100px 92px;
     .email{
         display: flex;
         gap: 18.33px;
@@ -134,4 +126,151 @@
             color: #152934;
         }
     }
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .contact-about-us-hero{
+        background: #E6F6ED;
+        .contact-us-hero{
+            padding: 30px 16px 30px 16px;
+    
+    
+            p{
+                font-family: $fontheader;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 25.2px;
+                letter-spacing: 0.05em;
+                color: #152934;
+                text-align: center;
+    
+            }
+            h4{
+                font-family: $fontheader;
+                font-size: 28px;
+                font-weight: 600;
+                line-height: 42px;
+                letter-spacing: 0.05em;
+                color: #152934;
+                padding-top: 8px;
+                text-align: center;
+            }
+            img{
+                display: flex;
+                margin: auto;
+            }
+        }
+    }
+
+    .form-section{
+        padding: 40px 16px 40px 16px;
+        h4{
+            font-family: $fontheader;
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 39px;
+            letter-spacing: 0.05em;
+            color: #152934;
+            text-align: center;
+        }
+        p{
+            font-family: $fontheader;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 23px;
+            letter-spacing: 0.05em;
+            color: #152934;
+            margin-top: 4px;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+        .form{
+            float: none;
+            background: #D9F2E3;
+            border-radius: 16px;
+            padding: 30px 20px 30px 20px;
+            input{
+                margin-bottom: 16px;
+                border-radius: 8px;
+                padding: 8px 24px 8px 24px;
+                border: none;
+                outline: none;
+                font-family: $fontheader;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 23px;
+                letter-spacing: 0.05em;
+                color: #000000;
+                width: 391px;
+                height: 50px;
+            }
+            .barta{
+                height: 120px;
+                position: relative;
+            }
+            button{
+                background-color: #00A746;
+                color: #ffffff;
+                border-radius: 8px;
+                padding: 8px 0px 8px 0px;
+                width: 180px;
+                height: 55px;
+                font-family: $fontheader;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0.05em;
+                border: none;
+            }
+            textarea{
+                margin-bottom: 24px;
+                border-radius: 8px;
+                padding: 8px 24px 8px 24px;
+                border: none;
+                outline: none;
+                font-family: $fontheader;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 23px;
+                letter-spacing: 0.05em;
+                color: #000000;
+                width: 464px;
+            }
+        }
+    }
+
+
+    .number-address{
+        padding: 32px 36px 40px 36px;
+        .email{
+            display: flex;
+            gap: 18.33px;
+            background: #D9F2E3;
+            border-radius: 14px;
+            padding: 20px 34px 20px 34px;
+            margin-bottom: 16px;
+
+            .top{
+                font-family: $fontheader;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0.05em;
+                color: #5D6467;
+                margin-bottom: 0px;
+            }
+            .down{
+                font-family: $fontheader;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0.05em;
+                color: #152934;
+            }
+        }
+    }
+    
+
 }

@@ -1,5 +1,5 @@
 .post-section{
-    padding: 40px 80px 24px 80px;
+    padding: 40px 92px 24px 92px;
     h4{
         font-family: $fontheader;
         font-size: 48px;
@@ -58,8 +58,8 @@
     margin-left: 100px;
     margin-right: 100px;
     border: none;
-    border-top: 1px solid #D9D9D9;
-    border-bottom: 1px solid #D9D9D9;
+    border-top: 2px solid #D9D9D9;
+    border-bottom: 2px solid #D9D9D9;
 
     margin-bottom: 100px;
     .tags{
@@ -92,6 +92,8 @@
 }
 
 .patient-prescription{
+    padding: 40px 92px 24px 92px;
+
     .related-post{
         h5{
             font-family: $fontheader;
@@ -122,3 +124,143 @@
         }
     }
 }
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    .post-section{
+        padding: 40px 16px 40px 16px;
+        h4{
+            font-family: $fontheader;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 49px;
+            letter-spacing: 0.05em;
+            text-align: center;
+            color: #152934;
+            padding-bottom: 14px;
+    
+        }
+        .date{
+            font-family: $fontheader;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0.05em;
+            text-align: center;
+            color: #152934;
+            padding-bottom: 26px;
+    
+        }
+        span{
+            font-family: $fontheader;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0.05em;
+            color: #5D6467;
+        }
+        img{
+            padding-bottom: 30px;
+        }
+        p{
+            font-family: $fontheader;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0.05em;
+            color: #152934;
+        }
+        h5{
+            font-family: $fontheader;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 33px;
+            letter-spacing: 0.05em;
+            text-align: center;
+            color: #152934;
+            padding-bottom: 16px;
+        }
+    }
+
+    .tag-section{
+        padding: 20px 0px 20px 0px;
+        margin-left: 16px;
+        margin-right: 16px;
+        border: none;
+        border-top: 2px solid #D9D9D9;
+        border-bottom: 2px solid #D9D9D9;
+    
+        margin-bottom: 100px;
+        .tags{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+                font-family: $fontheader;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0.05em;
+                color: #152934;
+                span{
+                    font-family: $fontheader;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    letter-spacing: 0.05em;
+                    color: #5D6467;
+                }
+                a {
+                    text-decoration: none;
+                    img{
+                        padding-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .patient-prescription{
+        padding: 40px 0px 40px 0px;
+
+        .related-post{
+            h5{
+                font-family: $fontheader;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 33px;
+                letter-spacing: 0.05em;
+                text-align: center;
+                color: #152934;
+            }
+        }
+        .singleblog{
+            padding-top: 16px;
+
+        }
+    }
+
+    .blog-button{
+        padding: 40px 16px 40px 16px;
+        a{
+            text-decoration: none;
+            button{
+                width: 170px;
+                height: 54px;
+                padding: 8px 12px 8px 12px;
+                border-radius: 12px;
+                border: 1px solid #00A746;
+                background: #F9F9F9;
+                margin-left: 20%;
+            }
+        }
+    }
+
+    
+}
+
+
